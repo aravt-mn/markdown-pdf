@@ -1,3 +1,5 @@
+<img src = 'images/custom_logo_design_fhirma-1.jpg' width = 100></img>
+
 # Project Title
 
 One Paragraph of project description goes here
