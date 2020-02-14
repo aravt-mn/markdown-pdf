@@ -15,7 +15,6 @@ var mdDocs = ["docs/chapter1.md", "docs/chapter2.md"]
 
 
 
-
 markdownpdf().concat.from(mdDocs).to(bookPath, function () {
   console.log("Done")
 })

@@ -1,10 +1,49 @@
 const mdToPdf = require('md-to-pdf');
- 
-var mdDocs = ["docs/chapter1.md", "docs/chapter2.md"]
- , bookPath = "pdf/document.pdf"
+
+const option = {
+    // "stylesheet": [
+    //   "path/to/style.css",
+    //   "https://example.org/stylesheet.css"
+    // ],
+    // "css": "body { color: tomato; }",
+    // "body_class": "markdown-body",
+    // "highlight_style": "monokai",
+    // "marked_options": {
+    //   "headerIds": false,
+    //   "smartypants": true,
+    // },
+    "dest": 'pdf/md1.pdf',
+    "pdf_options": {
+        "format": "A4",
+        "margin": "30mm 20mm",
+        "printBackground": true,
+        "displayHeaderFooter": true,
+        "headerTemplate": `|-
+            <style>
+                section {
+                margin: 0 auto;
+                font-family: system-ui;
+                font-size: 11px;
+                }
+            </style>
+            <section>
+                <span class='date'></span>
+            </section>`,
+        "footerTemplate": `|-
+            <section>
+                <div>
+                Page <span class="pageNumber"></span>
+                of <span class="totalPages"></span>
+                </div>
+            </section>`
+        },
+    "stylesheet_encoding": "utf-8"
+  };
+
+
 
 (async () => {
-    const pdf = await mdToPdf('docs/chapter1.md', { dest: 'pdf/md1.pdf' }).catch(console.error);
+    const pdf = await mdToPdf('docs/chapter1.md', option).catch(console.error);
  
     if (pdf) {
         console.log(pdf.filename);
