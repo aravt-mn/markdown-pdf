@@ -1,23 +1,23 @@
-var markdownpdf = require("markdown-pdf")
-  , fs = require("fs")
-  , split = require("split")
-  , through = require("through")
-  , duplexer = require("duplexer")
+// var markdownpdf = require("markdown-pdf")
+//   , fs = require("fs")
+//   , split = require("split")
+//   , through = require("through")
+//   , duplexer = require("duplexer")
  
-// fs.createReadStream("/path/to/document.md")
-//   .pipe(markdownpdf())
-//   .pipe(fs.createWriteStream("/path/to/document.pdf"))
+// // fs.createReadStream("/path/to/document.md")
+// //   .pipe(markdownpdf())
+// //   .pipe(fs.createWriteStream("/path/to/document.pdf"))
  
-// --- OR ---
+// // --- OR ---
  
-var mdDocs = ["docs/chapter1.md", "docs/chapter2.md"]
-, bookPath = "pdf/document.pdf"
+// var mdDocs = ["docs/chapter1.md", "docs/chapter2.md"]
+// , bookPath = "pdf/document.pdf"
 
 
 
-markdownpdf().concat.from(mdDocs).to(bookPath, function () {
-  console.log("Done")
-})
+// markdownpdf().concat.from(mdDocs).to(bookPath, function () {
+//   console.log("Done")
+// })
 
 
 

@@ -1,3 +1,7 @@
 {
-  "logo":"123"
+  "files": [
+    "chapter1.md",
+    "content.md",
+    "chapter2.md"
+  ]
 }
