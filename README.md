@@ -1,7 +1,7 @@
 # Javascript MD to PDF converter
 
 Javascript converter for md files to single pdf book. 
-source files are in MD files are in docs folder
+source MD files are located in docs folder
 
 ### Prerequisites
 
