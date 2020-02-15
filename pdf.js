@@ -1,4 +1,7 @@
 const mdToPdf = require('md-to-pdf');
+const config = require('./config.json');
+
+console.log(config.logo);
 
 const option = {
     // "stylesheet": [
@@ -12,7 +15,7 @@ const option = {
     //   "headerIds": false,
     //   "smartypants": true,
     // },
-    "dest": 'pdf/md1.pdf',
+    "dest": 'pdf/output.pdf',
     "pdf_options": {
         "format": "A4",
         "margin": "30mm 20mm",
@@ -39,8 +42,6 @@ const option = {
         },
     "stylesheet_encoding": "utf-8"
   };
-
-
 
 (async () => {
     const pdf = await mdToPdf('docs/chapter1.md', option).catch(console.error);
