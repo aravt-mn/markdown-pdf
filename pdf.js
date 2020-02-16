@@ -1,9 +1,73 @@
 const mdToPdf = require('md-to-pdf')
 , fs = require("fs")
 const config = require('./config.json');
+const merge = require('easy-pdf-merge');
 
-// console.log(config.files);
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
 
+// prepare title.pdf
+
+const title_option = {
+    // "stylesheet": [
+    //   "css/style.css"
+    // //  "https://example.org/stylesheet.css"
+    // ],
+    // "css": "body { color: tomato; }",
+    // "body_class": "markdown-body",
+    // "highlight_style": "monokai",
+    // "marked_options": {
+    //   "headerIds": false,
+    //   "smartypants": true,
+    // },
+    "dest": 'pdf/title.pdf',
+    "pdf_options": {
+        "format": "A4",
+        "margin": "30mm 20mm",
+        "printBackground": true,
+        "displayHeaderFooter": true,
+        "headerTemplate": `|-
+        <style>
+        section {
+        margin: 0 auto;
+        font-family: system-ui;
+        font-size: 11px;
+        }
+    </style>
+    <section>
+        <!--span class='date'></span-->
+    </section>
+            `,
+        "footerTemplate": `|-
+            <img src= 'logo.jpeg' width = '140'></img>
+            `
+        },
+    "stylesheet_encoding": "utf-8"
+  };
+
+async function title(){
+    const pdf = await mdToPdf('docs/' + config.title, title_option).catch(console.error);
+ 
+    if (pdf) {
+        console.log(pdf.filename);
+    }
+};
+title();
+
+// // prepare content.pdf
+// (async () => {
+//     const pdf = await mdToPdf('docs/' + config.content, { "stylesheet": [
+//         "css/style.css"
+//       //  "https://example.org/stylesheet.css"
+//       ], dest: 'pdf/content.pdf' }).catch(console.error);
+ 
+//     if (pdf) {
+//         console.log(pdf.filename);
+//     }
+// })();
+
+// prepare body.pdf from multi file
 var md_data = ''
 var i = 0;
 for(file of config.files){
@@ -18,15 +82,15 @@ for(file of config.files){
         
         i++;
         if(config.files.length == i ){
-            console.log(md_data)
+            // console.log(md_data)
             fs.writeFile("tmp/temp.md", md_data, (err) => {
                 if (err) console.log(err);
                 console.log("Successfully Written to File.");
             });
             const option = {
                 // "stylesheet": [
-                //   "path/to/style.css",
-                //   "https://example.org/stylesheet.css"
+                //   "css/style.css"
+                // //  "https://example.org/stylesheet.css"
                 // ],
                 // "css": "body { color: tomato; }",
                 // "body_class": "markdown-body",
@@ -35,29 +99,48 @@ for(file of config.files){
                 //   "headerIds": false,
                 //   "smartypants": true,
                 // },
-                "dest": 'pdf/output.pdf',
+                "dest": 'pdf/body.pdf',
                 "pdf_options": {
                     "format": "A4",
                     "margin": "30mm 20mm",
                     "printBackground": true,
                     "displayHeaderFooter": true,
                     "headerTemplate": `|-
-                        <style>
-                            section {
-                            margin: 0 auto;
-                            font-family: system-ui;
-                            font-size: 11px;
-                            }
-                        </style>
-                        <section>
-                            <span class='date'></span>
-                        </section>`,
+                    <style>
+                    section {
+                    margin: 0 auto;
+                    font-family: system-ui;
+                    font-size: 11px;
+                    }
+                </style>
+                <section>
+                    <!--span class='date'></span-->
+                </section>
+                        `,
                     "footerTemplate": `|-
                         <section>
-                            <div>
-                            Page <span class="pageNumber"></span>
-                            of <span class="totalPages"></span>
-                            </div>
+                             www.holoniq.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;
+                             <span class="pageNumber"></span>
+                             <!--of <span class="totalPages"></span>-->
                         </section>`
                     },
                 "stylesheet_encoding": "utf-8"
@@ -73,3 +156,15 @@ for(file of config.files){
         }
     })
 };
+
+async function merge_all(){
+    await sleep(3000);
+    merge(['pdf/title.pdf', 'pdf/body.pdf'], 'pdf/output.pdf', function(err){
+        if(err) {
+            return console.log(err)
+        }
+        console.log('Successfully merged!')
+        });
+}
+
+merge_all();

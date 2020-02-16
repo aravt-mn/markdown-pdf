@@ -1,7 +1,9 @@
 {
+  "title": "title.md",
+  "content": "content.md",
   "files": [
-    "chapter1.md",
     "content.md",
-    "chapter2.md"
+    "markdown_example_1.md",
+    "markdown_example_2.md"
   ]
 }

@@ -1,90 +1,164 @@
-<img src= 'logo.jpg' width = '50'></img>
+<h1>Table of Contents</h1>
+<hr/>
+<br/>
+<br/>
+<h2>Part 1</h2>
 
-# Scoring Methodology for Startups
-
-### Prepared for Patrick B. at HolonIQ
-Completed November 1, 2019
- <div class="page-break"></div> 
-<style>
-#toc_container {
-    background: #f9f9f9 none repeat scroll 0 0;
-    border: 1px solid #aaa;
-    display: table;
-    font-size: 95%;
-    margin-bottom: 1em;
-    padding: 20px;
-    width: auto;
-}
-
-.toc_title {
-    font-weight: 700;
-    text-align: center;
-}
-
-#toc_container li, #toc_container ul, #toc_container ul li{
-    list-style: outside none none !important;
-}
-</style>
-
-
-<div id="toc_container">
-<p class="toc_title">Contents</p>
-<ul class="toc_list">
-  <li><a href="#example1">1 Scoring Methodology for Startups (Part 1)</a>
-  <ul>
-    <li><a href="#example2">1.1 Deconstructing VCs Decision Making Frameworks 1</a></li>
-    <li><a href="#First_Sub_Point_2">1.2 First Sub Point 2</a></li>
-  </ul>
-</li>
-<li><a href="#Second_Point_Header">2 Second Point Header</a></li>
-<li><a href="#Third_Point_Header">3 Third Point Header</a></li>
-</ul>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example1">VR/AR</a></div>
+    <div style="float: left; width: 5%; ">2</div>
+</div>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example2">Robotics</a></div>
+    <div style="float: left; width: 5%; ">2</div>
+</div>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example3">Artificial Intelligence</a></div>
+    <div style="float: left; width: 5%; ">2</div>
+</div>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example4">Mobile</a></div>
+    <div style="float: left; width: 5%; ">3</div>
+</div>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example5">Blockchain</a></div>
+    <div style="float: left; width: 5%; ">3</div>
 </div>
 
+<br/>
+<h2>Part 2</h2>
 
-# Table of Contents
-
-<table border = "0" width ='100%'>
-<tr><td>&nbsp;</td><td></td></tr>
-<tr><td><h3>PART 1</h3></td><td></td><tr>
-<tr><td><a href="#example1">Scoring Methodology for Startups (Part 1)</a></td><td>3</td><tr>
-<tr><td><a href="#example2">Deconstructing VCs Decision Making Frameworks</a></td><td>3</td><tr>
-<tr><td><a href="#example3">Scorecard Valuation Methodology</a></td><td>3</td><tr>
-<tr><td><a href="#example4">Venture Capital Valuation Method</a></td><td>4</td><tr>
-<tr><td><a href="#example5">Dave Berkus Method</a></td><td>5</td><tr>
-<tr><td>&nbsp;</td><td></td></tr>
-<tr><td><h3>PART 2</h3></td><td></td><tr>
-<tr><td><a href="#example6">Scoring Methodology for Startups (Part 2)</a></td><td>7</td><tr>
-<tr><td><a href="#example7">Seraf Method</a></td><td>7</td><tr>
-<tr><td><a href="#example8">The Risk-Factor Summation Method</a></td><td>7</td><tr>
-<tr><td><a href="#example9">Mosaic Valuation Method 8 The Decision Analysis Framework</a></td><td>9</td><tr>
-<tr><td>&nbsp;</td><td></td></tr>
-<tr><td><h3>SOURCES</h3></td><td></td><tr>
-<tr><td><a href="#example10">Part 1 Sources 10 Part 2 Sources</a></td><td>10</td><tr>
-</table>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example6">VR/AR</a></div>
+    <div style="float: left; width: 5%; ">4</div>
+</div>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example7">Robotics</a></div>
+    <div style="float: left; width: 5%; ">4</div>
+</div>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example8">Artificial Intelligence</a></div>
+    <div style="float: left; width: 5%; ">4</div>
+</div>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example9">Mobile</a></div>
+    <div style="float: left; width: 5%; ">5</div>
+</div>
+<div style = "content: ''; display: table; clear: both; width: 100%">
+    <div style="float: left; width: 95%;"><a href="#example10">Blockchain</a></div>
+    <div style="float: left; width: 5%; ">5</div>
+</div>
  <div class="page-break"></div> 
-# Doc2
+Another well-funded XR hardware company fails - Verizon Media acquires its assets as part of a larger XR play. China’s Lego-like STEAM Robotics solution for kindergarten, Weikele, closes a Series A. Brick-and-mortar universities dive into AI in the US and UAE. Tension builds in the AI plagiarism detection market. Indian mobile game developer Nazara buys a kids’ education app maker. 
+<a id="example1"></a>
 
-One Paragraph of project description goes here. Hello computer world!
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+# VR/AR
 
+XR hype wave seems to have crested as the sector now enters the phase of creating commercially sustainable solutions, of which education is a promising use case. The latest company to close was Jaunt, a VR company that developed software and camera hardware for the entertainment industry. 
 
+Jaunt joins a list of well-funded XR companies to close this year including Daqri, Meta, and Osterhout Design Group.
 
+Verizon Media, the media arm of the US telecoms giant, has acquired the VR assets of Jaunt. Jaunt had raised over $100m from the likes of Disney and Axel Springer but had been struggling to find a sustainable business model and had been looking to sell its assets for the last year. This move is another signal that media companies are looking to get into XR and particularly VR for education, by virtue of its promise as a use case. 
 
-<h5><a id="example1"></a>Scoring Methodology for Startups (Part 1)</h5>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.123123
+Despite the ominous signs for XR hardware companies, Varjo, proves that VR for enterprise training is still attractive to investors. Varjo, a developer of VR headsets for hi-fidelity enterprise training, has released two new products for high- fidelity training cases. With the introduction of these devices, Varjo said it is raising the bar on VR clarity and lowering the barrier for enterprise usability of VR. 
 
+Egyptian startup VRapeutic, which develops VR- based therapies for children with learning disabilities such as autism and dyslexia, has raised an undisclosed Series A as part of VC4A’s Series A Venture Showcase. VC4A is an African funding platform. 
+<a id="example2"></a>
 
-### Sample Paragraph
+# Robotics. 
 
-There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+Weikele, founded in 2016, has raised an undisclosed Series A from BE Capital. The money will be used for marketing and iterating course content. Weikele’s STEAM robotics product is aimed at children 3-6 years old and is comparable to Lego. Lego is deemed too expensive for many Chinese families and so there was space for a very similar, but more affordable product. 
 
-<div class="page-break"></div>
+The strategy has been successful to date: despite its youth, the company already services over 3,000 kindergartens in 121 cities. However, challenges still remain. Professional skilling for robotics education is severely lacking, especially among kindergarten teachers, and kindergartens tend to be more traditional in approaches to pedagogy. The company, therefore, focuses on creating engaging video and offline content to win over potential customers. 
+<a id="example3"></a>
 
-<h5><a id="example2"></a>Deconstructing VCs Decision Making Frameworks</h5>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.3456546
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+# Artificial Intelligence. 
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+Brick-and-mortar universities are investing heavily in AI facilities. The UAE has opened the “World’s first” university dedicated to AI. The Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) is a new graduate-level AI research institution in Abu Dhabi that will offer Masters and PhD programs to begin in September 2020. 
+
+Back in the US, Fred Luddy, an alumnus of Indiana University, has gifted the institution $60m to open a dedicated AI facility at the university. The facility will feature teaching and learning spaces to support research and to encourage interdisciplinary collaborations. 
+
+MIT has set aside $1bn to open a new college in September 2020 that combines machine learning, AI and data science with other disciplines. It is the largest financial investment in AI by any US academic institution to date. The funds include a $350m donation from Stephen Schwarzman, founder of Blackstone, which will go towards a dedicated building, with the remainder funding 50 new faculty positions and numerous fellowships for graduate students. 
+
+Turning to plagiarism detection, Turnitin, the market leader, and Europe’s largest university application management system, DreamApply, are partnering to liberate staff from checking university applications for originality. 
+
+The move gives Turnitin a strong partner in the education ecosystem in Europe at a time when it is perhaps facing pressure from Google after the tech giant last month released its plagiarism checker for free for the 40m users of Google Classroom. 
+
+In the same month, Grammarly, the AI-powered writing coach has raised $90m taking its total funding to $200m. The company has a plagiarism detector as part of its education enterprise solution. Grammarly’s new funds will go towards spreading its reach across platforms and all media where users communicate by text. 
+<a id="example4"></a>
+
+# Mobile. 
+
+India’s Nazara Technologies buys 51% stake in edutainment developer, Paper Boat Apps for $11.7m. Paper Boat’s Kiddopia is a subscription- based edutainment app that offers several interactive games and activities that help in a child’s cognitive development, self-expression and social-emotional learning. 
+
+Nazara is one of India’s largest game developers. It has pursued international market expansion through acquisitions and investments in developing markets including Latin America, Africa, and West Asia. The acquisition will strengthen its education market credentials and market share in the United States and allow it to expand to high-value markets including Japan and those in Europe and Latin America. 
+<a id="example5"></a>
+
+# Blockchain. 
+
+This month, MIT released MIT Horizon, a subscription service for research and education on emerging technologies including Blockchain, AI, 3D Printing, and Robotics. 
+
+The service is a response to the inability of companies to keep up with developments in the latest tech. Companies typically spend significant resources on simply implementing technology or training staff to use new technology; in doing so, they often fall behind the latest developments. 
+
+The paid service, which boasts five paid enterprise customers already, offers educational content through articles, videos, and podcasts. It is the first of its kind - an enterprise learning and research tool for emerging technologies aimed at tech teams.
+
+- Test of a list
+
+- Test of a list
+ <div class="page-break"></div> 
+Another well-funded XR hardware company fails - Verizon Media acquires its assets as part of a larger XR play. China’s Lego-like STEAM Robotics solution for kindergarten, Weikele, closes a Series A. Brick-and-mortar universities dive into AI in the US and UAE. Tension builds in the AI plagiarism detection market. Indian mobile game developer Nazara buys a kids’ education app maker. 
+<a id="example6"></a>
+
+# VR/AR
+
+XR hype wave seems to have crested as the sector now enters the phase of creating commercially sustainable solutions, of which education is a promising use case. The latest company to close was Jaunt, a VR company that developed software and camera hardware for the entertainment industry. 
+
+Jaunt joins a list of well-funded XR companies to close this year including Daqri, Meta, and Osterhout Design Group.
+
+Verizon Media, the media arm of the US telecoms giant, has acquired the VR assets of Jaunt. Jaunt had raised over $100m from the likes of Disney and Axel Springer but had been struggling to find a sustainable business model and had been looking to sell its assets for the last year. This move is another signal that media companies are looking to get into XR and particularly VR for education, by virtue of its promise as a use case. 
+
+Despite the ominous signs for XR hardware companies, Varjo, proves that VR for enterprise training is still attractive to investors. Varjo, a developer of VR headsets for hi-fidelity enterprise training, has released two new products for high- fidelity training cases. With the introduction of these devices, Varjo said it is raising the bar on VR clarity and lowering the barrier for enterprise usability of VR. 
+
+Egyptian startup VRapeutic, which develops VR- based therapies for children with learning disabilities such as autism and dyslexia, has raised an undisclosed Series A as part of VC4A’s Series A Venture Showcase. VC4A is an African funding platform. 
+<a id="example7"></a>
+
+# Robotics. 
+
+Weikele, founded in 2016, has raised an undisclosed Series A from BE Capital. The money will be used for marketing and iterating course content. Weikele’s STEAM robotics product is aimed at children 3-6 years old and is comparable to Lego. Lego is deemed too expensive for many Chinese families and so there was space for a very similar, but more affordable product. 
+
+The strategy has been successful to date: despite its youth, the company already services over 3,000 kindergartens in 121 cities. However, challenges still remain. Professional skilling for robotics education is severely lacking, especially among kindergarten teachers, and kindergartens tend to be more traditional in approaches to pedagogy. The company, therefore, focuses on creating engaging video and offline content to win over potential customers. 
+<a id="example8"></a>
+
+# Artificial Intelligence. 
+
+Brick-and-mortar universities are investing heavily in AI facilities. The UAE has opened the “World’s first” university dedicated to AI. The Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) is a new graduate-level AI research institution in Abu Dhabi that will offer Masters and PhD programs to begin in September 2020. 
+
+Back in the US, Fred Luddy, an alumnus of Indiana University, has gifted the institution $60m to open a dedicated AI facility at the university. The facility will feature teaching and learning spaces to support research and to encourage interdisciplinary collaborations. 
+
+MIT has set aside $1bn to open a new college in September 2020 that combines machine learning, AI and data science with other disciplines. It is the largest financial investment in AI by any US academic institution to date. The funds include a $350m donation from Stephen Schwarzman, founder of Blackstone, which will go towards a dedicated building, with the remainder funding 50 new faculty positions and numerous fellowships for graduate students. 
+
+Turning to plagiarism detection, Turnitin, the market leader, and Europe’s largest university application management system, DreamApply, are partnering to liberate staff from checking university applications for originality. 
+
+The move gives Turnitin a strong partner in the education ecosystem in Europe at a time when it is perhaps facing pressure from Google after the tech giant last month released its plagiarism checker for free for the 40m users of Google Classroom. 
+
+In the same month, Grammarly, the AI-powered writing coach has raised $90m taking its total funding to $200m. The company has a plagiarism detector as part of its education enterprise solution. Grammarly’s new funds will go towards spreading its reach across platforms and all media where users communicate by text. 
+<a id="example9"></a>
+
+# Mobile. 
+
+India’s Nazara Technologies buys 51% stake in edutainment developer, Paper Boat Apps for $11.7m. Paper Boat’s Kiddopia is a subscription- based edutainment app that offers several interactive games and activities that help in a child’s cognitive development, self-expression and social-emotional learning. 
+
+Nazara is one of India’s largest game developers. It has pursued international market expansion through acquisitions and investments in developing markets including Latin America, Africa, and West Asia. The acquisition will strengthen its education market credentials and market share in the United States and allow it to expand to high-value markets including Japan and those in Europe and Latin America. 
+<a id="example10"></a>
+
+# Blockchain. 
+
+This month, MIT released MIT Horizon, a subscription service for research and education on emerging technologies including Blockchain, AI, 3D Printing, and Robotics. 
+
+The service is a response to the inability of companies to keep up with developments in the latest tech. Companies typically spend significant resources on simply implementing technology or training staff to use new technology; in doing so, they often fall behind the latest developments. 
+
+The paid service, which boasts five paid enterprise customers already, offers educational content through articles, videos, and podcasts. It is the first of its kind - an enterprise learning and research tool for emerging technologies aimed at tech teams.
+
+- Test of a list
+
+- Test of a list

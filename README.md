@@ -5,7 +5,9 @@ source MD files are located in docs folder
 
 ### Prerequisites
 
+Please install following tools
 [NodeJS](https://nodejs.org/en/)
+[JDK](https://www.oracle.com/java/technologies/javase-jdk13-downloads.html)
 
 ### Installing node modules and browser
 
