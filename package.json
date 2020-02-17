@@ -1,0 +1,29 @@
+{
+  "name": "markdown-pdf",
+  "version": "1.0.0",
+  "description": "Javascript converter for md files to single pdf book.  source MD files are located in docs folder",
+  "main": "pdf.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "easy-pdf-merge": "^0.2.2",
+    "md-to-pdf": "^2.8.2",
+    "markdown-pdf": "^10.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aravt-mn/markdown-pdf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aravt-mn/markdown-pdf/issues"
+  },
+  "homepage": "https://github.com/aravt-mn/markdown-pdf#readme"
+}

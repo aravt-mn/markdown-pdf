@@ -23,8 +23,8 @@ const title_option = {
     // },
     "dest": 'pdf/title.pdf',
     "pdf_options": {
-        "format": "A4",
-        "margin": "30mm 20mm",
+        "format": "Letter",
+        "margin": "10mm 20mm",
         "printBackground": true,
         "displayHeaderFooter": true,
         "headerTemplate": `|-
@@ -101,9 +101,10 @@ for(file of config.files){
                 // },
                 "dest": 'pdf/body.pdf',
                 "pdf_options": {
-                    "format": "A4",
+                    "format": "Letter",
                     "margin": "30mm 20mm",
                     "printBackground": true,
+                    "pageRanges": "2-8",
                     "displayHeaderFooter": true,
                     "headerTemplate": `|-
                     <style>
@@ -120,6 +121,8 @@ for(file of config.files){
                     "footerTemplate": `|-
                         <section>
                              www.holoniq.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                             &nbsp;&nbsp;&nbsp;
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
